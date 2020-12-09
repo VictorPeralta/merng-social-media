@@ -2,7 +2,7 @@ const {model, Schema} = require('mongoose');
 
 const postSchema = new Schema({
     body: String,
-    password: String,
+    username: String,
     comments: [
         {
             body: String,
